@@ -1,284 +1,283 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<uml:Model xmi:version="2.1" xmlns:xmi="http://schema.omg.org/spec/XMI/2.1" xmlns:uml="http://www.eclipse.org/uml2/3.0.0/UML" xmi:id="_Z6EgwNrtEeyiNrhu1BeWqw" name="iot_hx_c18x">
-  <eAnnotations xmi:id="_Z6FH0NrtEeyiNrhu1BeWqw" source="Objing">
-    <contents xmi:type="uml:Property" xmi:id="_Z6FH0drtEeyiNrhu1BeWqw" name="exporterVersion">
-      <defaultValue xmi:type="uml:LiteralString" xmi:id="_Z6FH0trtEeyiNrhu1BeWqw" value="3.0.0"/>
+<?xml version="1.0" encoding="UTF-8"?><uml:Model xmlns:uml="http://schema.omg.org/spec/UML/2.2" xmlns:xmi="http://schema.omg.org/spec/XMI/2.1" xmi:version="2.1" xmi:id="_clZFQNryEeyiNrhu1BeWqw" name="iot_hx_c18x">
+  <eAnnotations xmi:id="_clZFQdryEeyiNrhu1BeWqw" source="Objing">
+    <contents xmi:type="uml:Property" xmi:id="_clZFQtryEeyiNrhu1BeWqw" name="exporterVersion">
+      <defaultValue xmi:type="uml:LiteralString" xmi:id="_clZFQ9ryEeyiNrhu1BeWqw" value="3.0.0"/>
     </contents>
   </eAnnotations>
-  <packagedElement xmi:type="uml:Class" xmi:id="_Z6FH09rtEeyiNrhu1BeWqw" name="defectCountInfo">
-    <ownedComment xmi:id="_Z6FH1NrtEeyiNrhu1BeWqw">
-      <body>&lt;Enter note text here></body>
+  <packagedElement xmi:type="uml:Class" xmi:id="_clZFRNryEeyiNrhu1BeWqw" name="defectCountInfo">
+    <ownedComment xmi:type="uml:Comment" xmi:id="_clZFRdryEeyiNrhu1BeWqw">
+      <body>&lt;Enter note text here&gt;</body>
     </ownedComment>
-    <ownedAttribute xmi:id="_Z6FH1drtEeyiNrhu1BeWqw" name="_dataStr" visibility="private" isUnique="false">
-      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_clZFRtryEeyiNrhu1BeWqw" name="_dataStr" visibility="private" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.2/uml.xml#String"/>
     </ownedAttribute>
-    <ownedAttribute xmi:id="_Z6FH1trtEeyiNrhu1BeWqw" name="_dataArray[]" visibility="private" isUnique="false">
-      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_clZFR9ryEeyiNrhu1BeWqw" name="_dataArray[]" visibility="private" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.2/uml.xml#String"/>
     </ownedAttribute>
-    <ownedAttribute xmi:id="_Z6FH19rtEeyiNrhu1BeWqw" name="date" visibility="public" isUnique="false">
-      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_clZFSNryEeyiNrhu1BeWqw" name="date" visibility="public" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.2/uml.xml#String"/>
     </ownedAttribute>
-    <ownedAttribute xmi:id="_Z6FH2NrtEeyiNrhu1BeWqw" name="day" visibility="public" isUnique="false">
-      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_clZFSdryEeyiNrhu1BeWqw" name="day" visibility="public" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.2/uml.xml#String"/>
     </ownedAttribute>
-    <ownedAttribute xmi:id="_Z6FH2drtEeyiNrhu1BeWqw" name="pnStr" visibility="public" isUnique="false">
-      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_clZFStryEeyiNrhu1BeWqw" name="pnStr" visibility="public" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.2/uml.xml#String"/>
     </ownedAttribute>
-    <ownedAttribute xmi:id="_Z6FH2trtEeyiNrhu1BeWqw" name="defectItemId" visibility="public" isUnique="false">
-      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_clZFS9ryEeyiNrhu1BeWqw" name="defectItemId" visibility="public" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.2/uml.xml#Integer"/>
     </ownedAttribute>
-    <ownedAttribute xmi:id="_Z6FH29rtEeyiNrhu1BeWqw" name="defectCount" visibility="public" isUnique="false">
-      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_clZFTNryEeyiNrhu1BeWqw" name="defectCount" visibility="public" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.2/uml.xml#Integer"/>
     </ownedAttribute>
-    <ownedOperation xmi:id="_Z6FH3NrtEeyiNrhu1BeWqw" name="makeDefectCountInfo" visibility="public"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_clZFTdryEeyiNrhu1BeWqw" name="makeDefectCountInfo" visibility="public"/>
   </packagedElement>
-  <packagedElement xmi:type="uml:Class" xmi:id="_Z6FH3drtEeyiNrhu1BeWqw" name="defectData">
-    <ownedAttribute xmi:id="_Z6FH3trtEeyiNrhu1BeWqw" name="defectCountData" visibility="public" type="_Z6FH09rtEeyiNrhu1BeWqw" isUnique="false" aggregation="shared" association="_Z6FH5trtEeyiNrhu1BeWqw">
-      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_Z6FH39rtEeyiNrhu1BeWqw" value="*"/>
-      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_Z6FH4NrtEeyiNrhu1BeWqw"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_clZFTtryEeyiNrhu1BeWqw" name="defectData">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_clZFT9ryEeyiNrhu1BeWqw" name="defectCountData" visibility="public" type="_clZFRNryEeyiNrhu1BeWqw" isUnique="false" aggregation="shared" association="_clZFV9ryEeyiNrhu1BeWqw">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_clZFUNryEeyiNrhu1BeWqw" value="*"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_clZFUdryEeyiNrhu1BeWqw"/>
     </ownedAttribute>
-    <ownedAttribute xmi:id="_Z6FH4drtEeyiNrhu1BeWqw" name="_rawData" visibility="private" isUnique="false">
-      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_clZFUtryEeyiNrhu1BeWqw" name="_rawData" visibility="private" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.2/uml.xml#String"/>
     </ownedAttribute>
-    <ownedAttribute xmi:id="_Z6FH4trtEeyiNrhu1BeWqw" name="_rowDataArray[]" visibility="private" isUnique="false">
-      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_clZFU9ryEeyiNrhu1BeWqw" name="_rowDataArray[]" visibility="private" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.2/uml.xml#String"/>
     </ownedAttribute>
-    <ownedOperation xmi:id="_Z6FH49rtEeyiNrhu1BeWqw" name="length" visibility="public"/>
-    <ownedOperation xmi:id="_Z6FH5NrtEeyiNrhu1BeWqw" name="makeRowDataAray" visibility="public"/>
-    <ownedOperation xmi:id="_Z6FH5drtEeyiNrhu1BeWqw" name="makeDefectCountData" visibility="public"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_clZFVNryEeyiNrhu1BeWqw" name="length" visibility="public"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_clZFVdryEeyiNrhu1BeWqw" name="makeRowDataAray" visibility="public"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_clZFVtryEeyiNrhu1BeWqw" name="makeDefectCountData" visibility="public"/>
   </packagedElement>
-  <packagedElement xmi:type="uml:Association" xmi:id="_Z6FH5trtEeyiNrhu1BeWqw" memberEnd="_Z6FH3trtEeyiNrhu1BeWqw _Z6FH59rtEeyiNrhu1BeWqw">
-    <ownedEnd xmi:id="_Z6FH59rtEeyiNrhu1BeWqw" visibility="public" type="_Z6FH3drtEeyiNrhu1BeWqw" isUnique="false" association="_Z6FH5trtEeyiNrhu1BeWqw"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_clZFV9ryEeyiNrhu1BeWqw" memberEnd="_clZFT9ryEeyiNrhu1BeWqw _clZFWNryEeyiNrhu1BeWqw">
+    <ownedEnd xmi:type="uml:Property" xmi:id="_clZFWNryEeyiNrhu1BeWqw" visibility="public" type="_clZFTtryEeyiNrhu1BeWqw" isUnique="false" association="_clZFV9ryEeyiNrhu1BeWqw"/>
   </packagedElement>
-  <packagedElement xmi:type="uml:Class" xmi:id="_Z6FH6NrtEeyiNrhu1BeWqw" name="defect_data_file">
-    <ownedAttribute xmi:id="_Z6FH6drtEeyiNrhu1BeWqw" name="deftData" visibility="public" type="_Z6FH3drtEeyiNrhu1BeWqw" isUnique="false" aggregation="composite" association="_Z6FH7NrtEeyiNrhu1BeWqw"/>
-    <ownedAttribute xmi:id="_Z6FH6trtEeyiNrhu1BeWqw" name="C_T_FILE_1" visibility="public" isUnique="false">
-      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_clZFWdryEeyiNrhu1BeWqw" name="defect_data_file">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_clZFWtryEeyiNrhu1BeWqw" name="deftData" visibility="public" type="_clZFTtryEeyiNrhu1BeWqw" isUnique="false" aggregation="composite" association="_clZFXdryEeyiNrhu1BeWqw"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_clZFW9ryEeyiNrhu1BeWqw" name="C_T_FILE_1" visibility="public" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.2/uml.xml#String"/>
     </ownedAttribute>
-    <ownedOperation xmi:id="_Z6FH69rtEeyiNrhu1BeWqw" name="openFile" visibility="public"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_clZFXNryEeyiNrhu1BeWqw" name="openFile" visibility="public"/>
   </packagedElement>
-  <packagedElement xmi:type="uml:Association" xmi:id="_Z6FH7NrtEeyiNrhu1BeWqw" memberEnd="_Z6FH6drtEeyiNrhu1BeWqw _Z6FH7drtEeyiNrhu1BeWqw">
-    <ownedEnd xmi:id="_Z6FH7drtEeyiNrhu1BeWqw" visibility="public" type="_Z6FH6NrtEeyiNrhu1BeWqw" isUnique="false" association="_Z6FH7NrtEeyiNrhu1BeWqw"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_clZFXdryEeyiNrhu1BeWqw" memberEnd="_clZFWtryEeyiNrhu1BeWqw _clZFXtryEeyiNrhu1BeWqw">
+    <ownedEnd xmi:type="uml:Property" xmi:id="_clZFXtryEeyiNrhu1BeWqw" visibility="public" type="_clZFWdryEeyiNrhu1BeWqw" isUnique="false" association="_clZFXdryEeyiNrhu1BeWqw"/>
   </packagedElement>
-  <packagedElement xmi:type="uml:Class" xmi:id="_Z6FH7trtEeyiNrhu1BeWqw" name="pnDefIdList">
-    <ownedAttribute xmi:id="_Z6FH79rtEeyiNrhu1BeWqw" name="_rowArray[]" visibility="private" isUnique="false">
-      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_clZFX9ryEeyiNrhu1BeWqw" name="pnDefIdList">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_clZFYNryEeyiNrhu1BeWqw" name="_rowArray[]" visibility="private" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.2/uml.xml#String"/>
     </ownedAttribute>
-    <ownedAttribute xmi:id="_Z6FH8NrtEeyiNrhu1BeWqw" name="pnDefList[][]" visibility="public" isUnique="false">
-      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_clZFYdryEeyiNrhu1BeWqw" name="pnDefList[][]" visibility="public" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.2/uml.xml#String"/>
     </ownedAttribute>
-    <ownedOperation xmi:id="_Z6FH8drtEeyiNrhu1BeWqw" name="openFile" visibility="public"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_clZFYtryEeyiNrhu1BeWqw" name="openFile" visibility="public"/>
   </packagedElement>
-  <packagedElement xmi:type="uml:UseCase" xmi:id="_Z6FH8trtEeyiNrhu1BeWqw" name="工程内不良数を入力する">
-    <ownedComment xmi:id="_Z6FH89rtEeyiNrhu1BeWqw">
-      <body>当該成型機の工程内不良数を製品品番、不良現象、発生日を指定して、入力する。
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_clZFY9ryEeyiNrhu1BeWqw" name="工程�??不良数を�?�力す�?">
+    <ownedComment xmi:type="uml:Comment" xmi:id="_clZFZNryEeyiNrhu1BeWqw">
+      <body>当該成型機�?�工程�??不良数を製品品番、不良現象、発生日を指定して、�?�力する�??
 
 
-■Senario
-【メインフロー】
-1.ユーザがindex_i.htmlの「工程内不良推移表」ボタンを押下する。
-2.システムがTRANSITION_TABLE.htmlを表示する。
-3.ユーザーが品番、不良現象、日にちを選択し、不良発生数を登録する。
-4.システムがTRANSITION_TABLE.htmlを表示する。
-5.ユーザが「戻る」ボタンを押下する。
-6.システムはTRANSITION_TABLE.htmlの表示を停止し、index_i.htmlを表示する。
+�?Senario
+【メインフロー�?
+1.ユーザがindex_i.htmlの「工程�??不良推移表」�?�タンを押下する�??
+2.シス�?�?がTRANSITION_TABLE.htmlを表示する�?
+3.ユーザーが品番、不良現象、日にちを選択し、不良発生数を登録する�?
+4.シス�?�?がTRANSITION_TABLE.htmlを表示する�?
+5.ユーザが�?�戻る�?��?�タンを押下する�??
+6.シス�?�?はTRANSITION_TABLE.htmlの表示を停止し�?�index_i.htmlを表示する�?
 
-【代替フロー①】
-1.ユーザがindex_i.htmlの「工程内不良推移表」ボタンを押下する。
-2.システムがTRANSITION_TABLE.htmlを表示する。
-3.ユーザーが品番、不良現象、日にちを選択し、不良発生数を登録する。
-4.システムがTRANSITION_TABLE.htmlを表示する。
-5. 3.-4.を繰り返す。
-6.ユーザが「戻る」ボタンを押下する。
-7.システムはTRANSITION_TABLE.htmlの表示を停止し、index_i.htmlを表示する。
+【代替フロー�?�?
+1.ユーザがindex_i.htmlの「工程�??不良推移表」�?�タンを押下する�??
+2.シス�?�?がTRANSITION_TABLE.htmlを表示する�?
+3.ユーザーが品番、不良現象、日にちを選択し、不良発生数を登録する�?
+4.シス�?�?がTRANSITION_TABLE.htmlを表示する�?
+5. 3.-4.を繰り返す�?
+6.ユーザが�?�戻る�?��?�タンを押下する�??
+7.シス�?�?はTRANSITION_TABLE.htmlの表示を停止し�?�index_i.htmlを表示する�?
 
-【代替フロー②】
-1.ユーザがindex_i.htmlの「工程内不良推移表」ボタンを押下する。
-2.システムがTRANSITION_TABLE.htmlを表示する。
-3.ユーザーが品番、不良現象、日にちを選択し、不良発生数を登録する。
-4.システムがTRANSITION_TABLE.htmlを表示する。
-5.ユーザが「戻る」ボタンを押下する。
-6.システムはTRANSITION_TABLE.htmlの表示を停止し、index_i.htmlを表示する。
+【代替フロー②�?
+1.ユーザがindex_i.htmlの「工程�??不良推移表」�?�タンを押下する�??
+2.シス�?�?がTRANSITION_TABLE.htmlを表示する�?
+3.ユーザーが品番、不良現象、日にちを選択し、不良発生数を登録する�?
+4.シス�?�?がTRANSITION_TABLE.htmlを表示する�?
+5.ユーザが�?�戻る�?��?�タンを押下する�??
+6.シス�?�?はTRANSITION_TABLE.htmlの表示を停止し�?�index_i.htmlを表示する�?
 
-【代替フロー③】
-1.ユーザがindex_i.htmlの「工程内不良推移表」ボタンを押下する。
-2.システムがTRANSITION_TABLE.htmlを表示する。
-3.ユーザーが品番、不良現象、日にちを選択し、不良発生数を登録する。
-4.システムをシャットダウンする。
+【代替フロー③�?
+1.ユーザがindex_i.htmlの「工程�??不良推移表」�?�タンを押下する�??
+2.シス�?�?がTRANSITION_TABLE.htmlを表示する�?
+3.ユーザーが品番、不良現象、日にちを選択し、不良発生数を登録する�?
+4.シス�?�?をシャ�?トダウンする�?
 
-【例外フロー①】
-1.ユーザがindex_i.htmlの「工程内不良推移表」ボタンを押下する。
-2.システムがTRANSITION_TABLE.htmlを表示する。
-3.ユーザーが品番、不良現象、日にちを選択し、不良発生数の登録をしない。
-4.システムをシャットダウンする。
+【例外フロー�?�?
+1.ユーザがindex_i.htmlの「工程�??不良推移表」�?�タンを押下する�??
+2.シス�?�?がTRANSITION_TABLE.htmlを表示する�?
+3.ユーザーが品番、不良現象、日にちを選択し、不良発生数の登録をしな�?�?
+4.シス�?�?をシャ�?トダウンする�?
 
 
 
 
 </body>
     </ownedComment>
-    <ownedComment xmi:id="_Z6FH9NrtEeyiNrhu1BeWqw">
+    <ownedComment xmi:type="uml:Comment" xmi:id="_clZFZdryEeyiNrhu1BeWqw">
       <body>...</body>
     </ownedComment>
-    <ownedComment xmi:id="_Z6FH9drtEeyiNrhu1BeWqw">
+    <ownedComment xmi:type="uml:Comment" xmi:id="_clZFZtryEeyiNrhu1BeWqw">
       <body>...</body>
     </ownedComment>
-    <ownedComment xmi:id="_Z6FH9trtEeyiNrhu1BeWqw">
+    <ownedComment xmi:type="uml:Comment" xmi:id="_clZFZ9ryEeyiNrhu1BeWqw">
       <body>...</body>
     </ownedComment>
-    <ownedComment xmi:id="_Z6FH99rtEeyiNrhu1BeWqw">
-      <body>・システムは正常に起動している。
-・システムはindex_i.htmlを表示している。</body>
+    <ownedComment xmi:type="uml:Comment" xmi:id="_clZFaNryEeyiNrhu1BeWqw">
+      <body>・シス�?�?は正常に起動して�?る�??
+・シス�?�?はindex_i.htmlを表示して�?る�??</body>
     </ownedComment>
-    <ownedComment xmi:id="_Z6FH-NrtEeyiNrhu1BeWqw">
-      <body>・登録した不良品発生数情報をDBに記録している。
-・工程内不良推移表に表示できる。</body>
+    <ownedComment xmi:type="uml:Comment" xmi:id="_clZFadryEeyiNrhu1BeWqw">
+      <body>・登録した不良品発生数�?報をDBに記録して�?る�??
+・工程�??不良推移表に表示できる�?</body>
     </ownedComment>
-    <include xmi:id="_Z6FH-drtEeyiNrhu1BeWqw" name="UseCaseDependency" addition="_Z6FIDtrtEeyiNrhu1BeWqw"/>
-    <include xmi:id="_Z6FH-trtEeyiNrhu1BeWqw" name="UseCaseDependency" addition="_Z6FIFdrtEeyiNrhu1BeWqw"/>
+    <include xmi:type="uml:Include" xmi:id="_clZFatryEeyiNrhu1BeWqw" name="UseCaseDependency" addition="_clZFf9ryEeyiNrhu1BeWqw"/>
+    <include xmi:type="uml:Include" xmi:id="_clZFa9ryEeyiNrhu1BeWqw" name="UseCaseDependency" addition="_clZFhtryEeyiNrhu1BeWqw"/>
   </packagedElement>
-  <packagedElement xmi:type="uml:Actor" xmi:id="_Z6FH-9rtEeyiNrhu1BeWqw" name="ライン担当者"/>
-  <packagedElement xmi:type="uml:Association" xmi:id="_Z6FH_NrtEeyiNrhu1BeWqw" memberEnd="_Z6FH_drtEeyiNrhu1BeWqw _Z6FH_9rtEeyiNrhu1BeWqw" navigableOwnedEnd="_Z6FH_drtEeyiNrhu1BeWqw">
-    <ownedEnd xmi:id="_Z6FH_drtEeyiNrhu1BeWqw" visibility="public" type="_Z6FH8trtEeyiNrhu1BeWqw" isUnique="false" association="_Z6FH_NrtEeyiNrhu1BeWqw">
-      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_Z6FH_trtEeyiNrhu1BeWqw"/>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_clZFbNryEeyiNrhu1BeWqw" name="ライン�?当�??"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_clZFbdryEeyiNrhu1BeWqw" memberEnd="_clZFbtryEeyiNrhu1BeWqw _clZFcNryEeyiNrhu1BeWqw" navigableOwnedEnd="_clZFbtryEeyiNrhu1BeWqw">
+    <ownedEnd xmi:type="uml:Property" xmi:id="_clZFbtryEeyiNrhu1BeWqw" visibility="public" type="_clZFY9ryEeyiNrhu1BeWqw" isUnique="false" association="_clZFbdryEeyiNrhu1BeWqw">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_clZFb9ryEeyiNrhu1BeWqw"/>
     </ownedEnd>
-    <ownedEnd xmi:id="_Z6FH_9rtEeyiNrhu1BeWqw" visibility="public" type="_Z6FH-9rtEeyiNrhu1BeWqw" isUnique="false" association="_Z6FH_NrtEeyiNrhu1BeWqw">
-      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_Z6FIANrtEeyiNrhu1BeWqw"/>
-    </ownedEnd>
-  </packagedElement>
-  <packagedElement xmi:type="uml:Association" xmi:id="_Z6FIAdrtEeyiNrhu1BeWqw" memberEnd="_Z6FIAtrtEeyiNrhu1BeWqw _Z6FIBNrtEeyiNrhu1BeWqw" navigableOwnedEnd="_Z6FIAtrtEeyiNrhu1BeWqw">
-    <ownedEnd xmi:id="_Z6FIAtrtEeyiNrhu1BeWqw" visibility="public" type="_Z6FIBtrtEeyiNrhu1BeWqw" isUnique="false" association="_Z6FIAdrtEeyiNrhu1BeWqw">
-      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_Z6FIA9rtEeyiNrhu1BeWqw"/>
-    </ownedEnd>
-    <ownedEnd xmi:id="_Z6FIBNrtEeyiNrhu1BeWqw" visibility="public" type="_Z6FH-9rtEeyiNrhu1BeWqw" isUnique="false" association="_Z6FIAdrtEeyiNrhu1BeWqw">
-      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_Z6FIBdrtEeyiNrhu1BeWqw"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_clZFcNryEeyiNrhu1BeWqw" visibility="public" type="_clZFbNryEeyiNrhu1BeWqw" isUnique="false" association="_clZFbdryEeyiNrhu1BeWqw">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_clZFcdryEeyiNrhu1BeWqw"/>
     </ownedEnd>
   </packagedElement>
-  <packagedElement xmi:type="uml:UseCase" xmi:id="_Z6FIBtrtEeyiNrhu1BeWqw" name="工程内不良の発生数を確認する">
-    <ownedComment xmi:id="_Z6FIB9rtEeyiNrhu1BeWqw">
-      <body>当該成型機の不良の発生数を、以下の内容で確認する。
-・日毎の製品毎、不良現象毎の発生数
-・日毎の全体発生数
-・不良現象毎の当該月の発生数
-・不良の当該月の全体発生数
-・日毎の全体発生数の推移
-・当該月の全体発生数の推移
-
-
-
-■Senario
-【メインフロー】
-1.ユーザがindex_i.htmlの「工程内不良推移表」ボタンを押下する。
-2.システムがTRANSITION_TABLE.htmlを表示する。
-3.ユーザが「戻る」ボタンを押下する。
-4.システムはTRANSITION_TABLE.htmlの表示を停止し、index_i.htmlを表示する。
-
-</body>
-    </ownedComment>
-    <ownedComment xmi:id="_Z6FICNrtEeyiNrhu1BeWqw">
-      <body>...</body>
-    </ownedComment>
-    <ownedComment xmi:id="_Z6FICdrtEeyiNrhu1BeWqw">
-      <body>...</body>
-    </ownedComment>
-    <ownedComment xmi:id="_Z6FICtrtEeyiNrhu1BeWqw">
-      <body>...</body>
-    </ownedComment>
-    <ownedComment xmi:id="_Z6FIC9rtEeyiNrhu1BeWqw">
-      <body>・システムが正常に起動している。
-・WebブラウザがKIOSKモードでindex_i.htmlを表示している。
-</body>
-    </ownedComment>
-    <ownedComment xmi:id="_Z6FIDNrtEeyiNrhu1BeWqw">
-      <body>・WebブラウザがKIOSKモードでindex_i.htmlを表示している。
-</body>
-    </ownedComment>
-    <include xmi:id="_Z6FIDdrtEeyiNrhu1BeWqw" name="UseCaseDependency" addition="_Z6FIFdrtEeyiNrhu1BeWqw"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_clZFctryEeyiNrhu1BeWqw" memberEnd="_clZFc9ryEeyiNrhu1BeWqw _clZFddryEeyiNrhu1BeWqw" navigableOwnedEnd="_clZFc9ryEeyiNrhu1BeWqw">
+    <ownedEnd xmi:type="uml:Property" xmi:id="_clZFc9ryEeyiNrhu1BeWqw" visibility="public" type="_clZFd9ryEeyiNrhu1BeWqw" isUnique="false" association="_clZFctryEeyiNrhu1BeWqw">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_clZFdNryEeyiNrhu1BeWqw"/>
+    </ownedEnd>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_clZFddryEeyiNrhu1BeWqw" visibility="public" type="_clZFbNryEeyiNrhu1BeWqw" isUnique="false" association="_clZFctryEeyiNrhu1BeWqw">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_clZFdtryEeyiNrhu1BeWqw"/>
+    </ownedEnd>
   </packagedElement>
-  <packagedElement xmi:type="uml:UseCase" xmi:id="_Z6FIDtrtEeyiNrhu1BeWqw" name="発生日、製品品番、不良現象を指定して不良品発生数を登録する">
-    <ownedComment xmi:id="_Z6FID9rtEeyiNrhu1BeWqw">
-      <body>TRANSITION_TABLE.htmlから不良品発生数を登録し、DBに記録する。
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_clZFd9ryEeyiNrhu1BeWqw" name="工程�??不良の発生数を確認す�?">
+    <ownedComment xmi:type="uml:Comment" xmi:id="_clZFeNryEeyiNrhu1BeWqw">
+      <body>当該成型機�?�不良の発生数を�?�以下�?��?容で確認する�??
+・日毎�?�製品毎�?�不良現象毎�?�発生数
+・日毎�?�全体発生数
+・不良現象毎�?�当該月�?�発生数
+・不良の当該月�?�全体発生数
+・日毎�?�全体発生数の推移
+・当該月�?�全体発生数の推移
 
-■Senario
-【メインフロー】
-1.ユーザは表内で所望の、品番、不良現象、日にちのセルをクリックする。
-2.システムはクリックしたセルを黄色ハッチングする。
-3.ユーザは黄色ハッチングされたセルに発生回数を選択する。
-4.システムは選択された発生回数をセルに表示する。
-5.ユーザは「REGIST」ボタンを押下する。
-6.システムは選択された発生回数を表示に反映する。同時にDBに登録する。
 
-【代替フロー】
-1.ユーザは表内で所望の、品番、不良現象、日にちのセルをクリックする。
-2.システムはクリックしたセルを黄色ハッチングする。
-3.ユーザは黄色ハッチングされたセルに発生回数を選択する。
-4.システムは選択された発生回数をセルに表示する。
-5.1.～4.を繰り返す。
-6.ユーザは「REGIST」ボタンを押下する。
-7.システムは選択された発生回数を表示に反映する。
-　同時にシステムは最後に指定した発生回数のみをDBに登録する。
 
-※5で繰り返し入力した発生回数は表示に反映されるが、DBには登録されず、
-　最後に入力した発生回数のみDBに登録する。
-
-【例外フロー】
-1.ユーザは表内で所望の、品番、不良現象、日にちのセルをクリックする。
-2.システムはクリックしたセルを黄色ハッチングする。
-3.ユーザは黄色ハッチングされたセルに発生回数を選択する。
-4.システムは選択された発生回数をセルに表示する。
-5.1.～4.を繰り返す。
-6.システムはシャットダウンする。
+�?Senario
+【メインフロー�?
+1.ユーザがindex_i.htmlの「工程�??不良推移表」�?�タンを押下する�??
+2.シス�?�?がTRANSITION_TABLE.htmlを表示する�?
+3.ユーザが�?�戻る�?��?�タンを押下する�??
+4.シス�?�?はTRANSITION_TABLE.htmlの表示を停止し�?�index_i.htmlを表示する�?
 
 </body>
     </ownedComment>
-    <ownedComment xmi:id="_Z6FIENrtEeyiNrhu1BeWqw">
+    <ownedComment xmi:type="uml:Comment" xmi:id="_clZFedryEeyiNrhu1BeWqw">
       <body>...</body>
     </ownedComment>
-    <ownedComment xmi:id="_Z6FIEdrtEeyiNrhu1BeWqw">
+    <ownedComment xmi:type="uml:Comment" xmi:id="_clZFetryEeyiNrhu1BeWqw">
       <body>...</body>
     </ownedComment>
-    <ownedComment xmi:id="_Z6FIEtrtEeyiNrhu1BeWqw">
+    <ownedComment xmi:type="uml:Comment" xmi:id="_clZFe9ryEeyiNrhu1BeWqw">
       <body>...</body>
     </ownedComment>
-    <ownedComment xmi:id="_Z6FIE9rtEeyiNrhu1BeWqw">
+    <ownedComment xmi:type="uml:Comment" xmi:id="_clZFfNryEeyiNrhu1BeWqw">
+      <body>・シス�?�?が正常に起動して�?る�??
+・WebブラウザがKIOSKモードでindex_i.htmlを表示して�?る�??
+</body>
+    </ownedComment>
+    <ownedComment xmi:type="uml:Comment" xmi:id="_clZFfdryEeyiNrhu1BeWqw">
+      <body>・WebブラウザがKIOSKモードでindex_i.htmlを表示して�?る�??
+</body>
+    </ownedComment>
+    <include xmi:type="uml:Include" xmi:id="_clZFftryEeyiNrhu1BeWqw" name="UseCaseDependency" addition="_clZFhtryEeyiNrhu1BeWqw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_clZFf9ryEeyiNrhu1BeWqw" name="発生日、製品品番、不良現象を指定して不良品発生数を登録する">
+    <ownedComment xmi:type="uml:Comment" xmi:id="_clZFgNryEeyiNrhu1BeWqw">
+      <body>TRANSITION_TABLE.htmlから不良品発生数を登録し�?�DBに記録する�?
+
+�?Senario
+【メインフロー�?
+1.ユーザは表�?で�?望�?�、品番、不良現象、日にちのセルをクリ�?クする�?
+2.シス�?�?はクリ�?クしたセルを�?色ハッチングする�?
+3.ユーザは�?色ハッチングされたセルに発生回数を選択する�??
+4.シス�?�?は選択された発生回数をセルに表示する�?
+5.ユーザは「REGIST」�?�タンを押下する�??
+6.シス�?�?は選択された発生回数を表示に反映する。同時にDBに登録する�?
+
+【代替フロー�?
+1.ユーザは表�?で�?望�?�、品番、不良現象、日にちのセルをクリ�?クする�?
+2.シス�?�?はクリ�?クしたセルを�?色ハッチングする�?
+3.ユーザは�?色ハッチングされたセルに発生回数を選択する�??
+4.シス�?�?は選択された発生回数をセルに表示する�?
+5.1.?�?4.を繰り返す�?
+6.ユーザは「REGIST」�?�タンを押下する�??
+7.シス�?�?は選択された発生回数を表示に反映する�?
+�?同時にシス�?�?は�?後に�?定した発生回数のみをDBに登録する�?
+
+※5で繰り返し入力した発生回数は表示に反映されるが、DBには登録されず�??
+�?�?後に入力した発生回数のみDBに登録する�?
+
+【例外フロー�?
+1.ユーザは表�?で�?望�?�、品番、不良現象、日にちのセルをクリ�?クする�?
+2.シス�?�?はクリ�?クしたセルを�?色ハッチングする�?
+3.ユーザは�?色ハッチングされたセルに発生回数を選択する�??
+4.シス�?�?は選択された発生回数をセルに表示する�?
+5.1.?�?4.を繰り返す�?
+6.シス�?�?はシャ�?トダウンする�?
+
+</body>
+    </ownedComment>
+    <ownedComment xmi:type="uml:Comment" xmi:id="_clZFgdryEeyiNrhu1BeWqw">
       <body>...</body>
     </ownedComment>
-    <ownedComment xmi:id="_Z6FIFNrtEeyiNrhu1BeWqw">
-      <body>・登録した不良品発生数がDBに登録されている。</body>
+    <ownedComment xmi:type="uml:Comment" xmi:id="_clZFgtryEeyiNrhu1BeWqw">
+      <body>...</body>
+    </ownedComment>
+    <ownedComment xmi:type="uml:Comment" xmi:id="_clZFg9ryEeyiNrhu1BeWqw">
+      <body>...</body>
+    </ownedComment>
+    <ownedComment xmi:type="uml:Comment" xmi:id="_clZFhNryEeyiNrhu1BeWqw">
+      <body>...</body>
+    </ownedComment>
+    <ownedComment xmi:type="uml:Comment" xmi:id="_clZFhdryEeyiNrhu1BeWqw">
+      <body>・登録した不良品発生数がDBに登録されて�?る�??</body>
     </ownedComment>
   </packagedElement>
-  <packagedElement xmi:type="uml:UseCase" xmi:id="_Z6FIFdrtEeyiNrhu1BeWqw" name="不良品の発生数の推移表を表示する">
-    <ownedComment xmi:id="_Z6FIFtrtEeyiNrhu1BeWqw">
-      <body>TRANSITION_TABLE.htmlを表示し、以下を表示する。
-・日毎の製品毎、不良現象毎の発生数
-・日毎の全体発生数
-・不良現象毎の当該月の発生数
-・不良の当該月の全体発生数
-・日毎の全体発生数の推移
-・当該月の全体発生数の推移
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_clZFhtryEeyiNrhu1BeWqw" name="不良品�?�発生数の推移表を表示する">
+    <ownedComment xmi:type="uml:Comment" xmi:id="_clZFh9ryEeyiNrhu1BeWqw">
+      <body>TRANSITION_TABLE.htmlを表示し�?�以下を表示する�?
+・日毎�?�製品毎�?�不良現象毎�?�発生数
+・日毎�?�全体発生数
+・不良現象毎�?�当該月�?�発生数
+・不良の当該月�?�全体発生数
+・日毎�?�全体発生数の推移
+・当該月�?�全体発生数の推移
 
-■Senario
-【メインフロー】
-1.TRANSITION_TABLE.htmlを表示する。</body>
+�?Senario
+【メインフロー�?
+1.TRANSITION_TABLE.htmlを表示する�?</body>
     </ownedComment>
-    <ownedComment xmi:id="_Z6FIF9rtEeyiNrhu1BeWqw">
+    <ownedComment xmi:type="uml:Comment" xmi:id="_clZFiNryEeyiNrhu1BeWqw">
       <body>...</body>
     </ownedComment>
-    <ownedComment xmi:id="_Z6FIGNrtEeyiNrhu1BeWqw">
+    <ownedComment xmi:type="uml:Comment" xmi:id="_clZFidryEeyiNrhu1BeWqw">
       <body>...</body>
     </ownedComment>
-    <ownedComment xmi:id="_Z6FIGdrtEeyiNrhu1BeWqw">
+    <ownedComment xmi:type="uml:Comment" xmi:id="_clZFitryEeyiNrhu1BeWqw">
       <body>...</body>
     </ownedComment>
-    <ownedComment xmi:id="_Z6FIGtrtEeyiNrhu1BeWqw">
-      <body>・ユーザはindex_i.htmlの「工程内不良推移表」ボタンを押下した。</body>
+    <ownedComment xmi:type="uml:Comment" xmi:id="_clZFi9ryEeyiNrhu1BeWqw">
+      <body>・ユーザはindex_i.htmlの「工程�??不良推移表」�?�タンを押下した�??</body>
     </ownedComment>
-    <ownedComment xmi:id="_Z6FIG9rtEeyiNrhu1BeWqw">
-      <body>・TRANSITION_TABLE.htmlの内容を表示している。
-・指定されたライン名に対応した製品の不良発生数を表示している。
-・製品に対応する不良現象を表示している。
-・ユーザが入力した不良数を表示している。
-・使用している日が属する月の日日の不良発生数を表示している。
+    <ownedComment xmi:type="uml:Comment" xmi:id="_clZFjNryEeyiNrhu1BeWqw">
+      <body>・TRANSITION_TABLE.htmlの�?容を表示して�?る�??
+・�?定されたライン名に対応した製品�?�不良発生数を表示して�?る�??
+・製品に対応する不良現象を表示して�?る�??
+・ユーザが�?�力した不良数を表示して�?る�??
+・使用して�?る日が属する月の日日の不良発生数を表示して�?る�??
 </body>
     </ownedComment>
   </packagedElement>
